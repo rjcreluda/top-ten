@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      .fade-enter-active{ transition: opacity .5s; }
+      .fade-enter, .fade-leave-active{ opacity: 0; }
+      [v-cloak] { display: none !important; }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <div id="apps" v-cloak>
+      <header class="bg-info">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12"><h2 class="py-5 text-light">{{ appName }}</h2></div>
+          </div>
+        </div>
+      </header>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="mb-2">
+              <form v-on:submit.prevent="onSubmit">
+                <div class="form-row">
+                  <div class="col-3">Search for product</div>
+                  <div class="col-4"><input type="text" v-model="searchText" class="form-control"></div>
+                  <div class="col-2"><button class="btn btn-primary" type="submit">Search</button></div>
+                </div>
+              </form>
+            </div><hr>
+            <div class="py-2" v-if="lastSearch !== '' && !loading">
+              Search result for {{ lastSearch }}: {{ items.length }} results
+            </div>
+            <div class="py-2" v-show="loading">
+              Loading ...
+            </div>
+            <div class="product">
+              <transition-group name="fade" tag="div">
+                <div class="border mb-2 p-3" v-for="(item, index) in items" :key="item.id">
+                  <h6>{{ item.title }}</h6>
+                  <div class="d-flex justify-content-between">
+                    <span>Price: {{ item.price | currency }}</span>
+                    <button class="btn btn-outline-success btn-sm" @click="addItem(index)">Add to cart</button>
+                  </div>
+                </div>
+              </transition-group>
+            </div>
+            <div class="links" v-if="links">
+              <a :href="links.prev" v-on:click.prevent="loadArticle(links.prev)" v-if="links.prev">Prev</a>
+              <a :href="links.next" v-on:click.prevent="loadArticle(links.next)" v-if="links.next">Next</a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="cart">
+              <h3>Shopping Cart</h3>
+              <ul class="list-group list-group-flush pt-2 my-3">
+                <li v-for="item in cart" class="list-group-item">
+                  <div class="text-bold">{{ item.title }}</div>
+                  <span>Qty: {{ item.qty }} x {{ item.price | currency }}</span>
+                  <button class="btn btn-sm btn-outline-danger" @click="increment(item)">+</button>
+                  <button class="btn btn-sm btn-outline-danger" @click="decrement(item)">-</button>
+                </li>
+              </ul>
+              <transition name="fade">
+                <div v-if="cart.length">Total: {{ total | currency }}</div>
+              </transition>
+              <div v-if="!cart.length">Nothing in the cart</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="../node_modules/vue-resource/dist/vue-resource.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
