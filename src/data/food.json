@@ -1,4 +1,7 @@
-[
+{
+    "description": "Meal delivery services are quick and convenient way to easily maintain a healthy, affordable and delicious lifestyle.",
+    "header_image": "https://images.top10.com/f_auto,q_auto/v1/production/charts/uploads/photo/header-meal-min.20190719083141.jpg",
+    "data": [
     {
         "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/Hello%20Fresh_logo.20201221084138.png",
         "title": "A simple, healthier solution for feeding your household. \n",
@@ -60,3 +63,4 @@
         "attributes": []
     }
 ]
+}

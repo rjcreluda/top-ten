@@ -1,4 +1,7 @@
-[
+{
+    "description": "Fast & secure servers in USA, UK & over 90 more countries, Change your IP address & use the internet privately & securely",
+    "header_image": "https://umbrella.data.naturalint.com/production/charts/uploads/photo/header.20200601071135.jpg",
+    "data": [
     {
         "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/expressvpn.20180611104903.png",
         "title": "Super fast, secure & 100% anonymous.\nMulti device. 24/7 customer support",
@@ -50,3 +53,4 @@
         "url": "https://track.ultravpn.com"
     }
 ]
+}

@@ -3,13 +3,17 @@
     <!-- Background image -->
     <div
       class="p-5 bg-image"
-      :style="styleObject"
+      style="
+        background-image: url('assets/img/bg.jpg');
+        height: 450px;
+      "
     >
       <div class="mask">
         <div class="block-big-title">
           <h3 class="first-title-1">Top 10 List of {{ $route.params.slug }}</h3>
           <h5 class="second-title-2">
-            {{ products.description }}
+            Whether you're a fashion expert
+            or simply want a pair of jeans, explore go-to brands and discover new favorites with these online stores.
           </h5>
         </div>
       </div>
@@ -23,12 +27,12 @@
         <div class="date-post">
           <svg width="1em" height="1em" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg" font-size="14" class="css-17kk34u"><path d="M8.625 16.25a8.125 8.125 0 100-16.25 8.125 8.125 0 000 16.25z" fill="currentColor"></path><path d="M5.05 8.545l.866-1.126L8.17 9.325l3.64-4.073 1.04.953-4.594 5.027L5.05 8.545z" fill="#F5F5F5"></path></svg>
           <span class="update-date">Last Updated</span>
-          <span class="date-article"><b> Mar 2022</b></span>
+          <span class="date-article"><b>Mar 2022</b></span>
         </div>
         <div class="col-md-8">
 
-          <div class="card" v-for="(product, index) in products.data" :key="index">
-            <div class="card-header" v-if="index == 0"><h5 class="card-title">We selects</h5></div>
+          <div class="card" v-for="(product, index) in products" :key="index">
+            <div class="card-header" v-if="index == 0"><h5 class="card-title">Top10.com selects</h5></div>
             <div class="card-body row">
               <div class="col-md-3">
                 <div class="left-number">
@@ -220,53 +224,29 @@
   import food from '@/data/food.json'
   import relationship from '@/data/relationship.json'
   import tech from '@/data/tech.json'
-  import entertainment from '@/data/entertainment.json'
-  import shopping from '@/data/shopping.json'
   export default{
     name: 'Category',
     data: () => ({
-      products: [],
-      styleObject: {}
+      products: []
     }),
     created(){
       const cat = this.$route.params.slug
-      this.setCurrentCategory( cat )
-    },
-    watch: {
-      $route ( to, from ){
-        const slug = to.params.slug
-        const old_slug = from.params.slug
-        this.setCurrentCategory( slug, old_slug )
-      }
-    },
-    methods: {
-      setCurrentCategory( slug ){
-        switch( slug ){
-          case 'food':
-            this.products = food;
-            break;
-          case 'fashion':
-            this.products = fashion;
-            break;
-          case 'relationship':
-            this.products = relationship;
-            break;
-          case 'tech':
-            this.products = tech;
-            break;
-          case 'entertainment':
-            this.products = entertainment;
-            break;
-          case 'shopping':
-            this.products = shopping;
-            break;
-          default:
-            break;
-        }
-        this.styleObject = {
-          backgroundImage: `url(${this.products.header_image})`,
-          height: '450px'
-        }
+      console.log(cat)
+      switch( cat ){
+        case 'food':
+          this.products = food;
+          break;
+        case 'fashion':
+          this.products = fashion;
+          break;
+        case 'relationship':
+          this.products = relationship;
+          break;
+        case 'tech':
+          this.products = tech;
+          break;
+        default:
+        break;
       }
     }
   }

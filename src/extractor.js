@@ -1,4 +1,16 @@
-data = []
+data = {
+  description: '',
+  header_image: '',
+  data: []
+}
+
+description = document.querySelector('.subTitle.desc').textContent
+header_image = document.querySelector('.BackgroundImage')
+src = 'https:' + header_image.getAttribute('src')
+
+data.description = description
+data.header_image = src
+
 products = document.querySelectorAll('.product-row')
 for( let product of products){
   img = product.querySelector('.logo__image').getAttribute('src')
@@ -20,7 +32,7 @@ for( let product of products){
     } )
   }
 
-  data.push({
+  data.data.push({
     img,
     title,
     url,

@@ -1,0 +1,96 @@
+{
+    "description": "Finding fashions from big designers no longer requires a trip to Paris, thanks to these shopping sites with all the best deals. ",
+    "header_image": "https://umbrella.data.naturalint.com/production/charts/uploads/photo/fashion.20200601074705.jpg",
+    "data": [
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/asos.png",
+            "title": "Clothing for 20-something men and women from name brands as well as ASOS own brand",
+            "url": "http://www.asos.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/boohoo.png",
+            "title": "Affordable clothing for men and women aimed at the younger crowd",
+            "url": "http://us.boohoo.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/need-supply-co.png",
+            "title": "A source for hard-to-find vintage clothing, as well as premium street wear",
+            "url": "https://needsupply.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/lisa-says-gah.png",
+            "title": "Find women's fashion from independent designers committed to using quality materials ",
+            "url": "https://www.lisasaysgah.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/net-a-porter.png",
+            "title": "Find luxury women's clothes, shoes, bags and accesories from designer brands ",
+            "url": "https://www.net-a-porter.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/the-outnet.png",
+            "title": "Women's clothing from over 350 luxury designer brands at marked down prices",
+            "url": "https://www.theoutnet.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/shopbop.png",
+            "title": "Browse daily new arrivals from over 1,000 womenswear designers",
+            "url": "https://www.shopbop.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/farfetch.png",
+            "title": "Enjoy a massive selection of luxury clothing for men and women from big designers",
+            "url": "https://www.farfetch.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/best-fashion-sites/moda-operandi.png",
+            "title": "Shop a curated selection of women's clothing from designer brands like Burberry",
+            "url": "https://www.modaoperandi.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/photo/logo%20(9).20210617065551.png",
+            "title": "High quality trendy clothing for women and teens at budget friendly prices",
+            "url": "https://shareasale.com",
+            "attributes": [
+                "Shipping: 5 Days/Free Over $40",
+                "Returns: 28 Days"
+            ]
+        }
+    ]
+}

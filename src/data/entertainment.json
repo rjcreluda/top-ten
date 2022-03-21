@@ -1,0 +1,97 @@
+{
+    "category": "Entertainment",
+    "description": "News websites keep you up to date with what's going on, but with so much fake news out there, you need to choose a reputable source.",
+    "header_image": "https://umbrella.data.naturalint.com/production/charts/uploads/photo/header.20200601071135.jpg",
+    "data": [
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/the-new-york-times.png",
+            "title": "The NYT offers scrupulously fact-checked news coverage and editorials",
+            "url": "https://www.nytimes.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/cnn.png",
+            "title": "The 24-hour news channel offers non-stop breaking news coverage online ",
+            "url": "https://edition.cnn.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/reuters.png",
+            "title": "Stay ahead of the curve with breaking news from the respected wire service ",
+            "url": "https://www.reuters.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/wall-street-journal.png",
+            "title": "Fact-checked political and business news from a US institution ",
+            "url": "https://www.wsj.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/bbc.png",
+            "title": "Get unbiased world news coverage from this international standard-bearer",
+            "url": "http://www.bbc.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/npr.png",
+            "title": "In-depth political reporting from the award-winning public news outlet",
+            "url": "https://www.npr.org",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/google-news.png",
+            "title": "Use this algorithm-driven news aggregation site for breaking news stories",
+            "url": "https://news.google.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/fox-news.png",
+            "title": "This opinionated outlet offers conservative news and political commentary ",
+            "url": "http://www.foxnews.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/nbc.png",
+            "title": "Get breaking news coverage and commentary from this 24-hour news outlet",
+            "url": "https://www.nbcnews.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/partners/uploads/superlist/news-websites/washington-post.png",
+            "title": "One of the Big Three US papers, WaPo has in-depth news coverage online",
+            "url": "https://www.washingtonpost.com",
+            "attributes": [
+                "Type of Media: Print, online",
+                "Best for: High-standard journalism"
+            ]
+        }
+    ]
+}
