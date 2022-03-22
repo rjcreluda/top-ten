@@ -6,10 +6,6 @@ import VModal from 'vue-js-modal'
 
 Vue.config.productionTip = false
 
-/*router.beforeEach((to, from, next) => {
-  window.scrollTo(0, 0)
-})*/
-
 Vue.use(VModal)
 
 new Vue({
