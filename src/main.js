@@ -9,10 +9,13 @@ Vue.config.productionTip = false
 /*router.beforeEach((to, from, next) => {
   window.scrollTo(0, 0)
 })*/
+
+Vue.use(VModal)
+
 new Vue({
   router,
   store,
   render: h => h(App)
 }).$mount('#app')
 
-Vue.use(VModal)
+

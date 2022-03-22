@@ -55,7 +55,7 @@
                 </div>
               </form>
               <div class="d-flex align-items-center">
-                <button type="button" class="btn btn-primary me-3" @click="$modal.show('modal-signup')">
+                <button type="button" class="btn btn-primary me-3" @click="showModal()">
                   Sign up for free
                 </button>
               </div>
@@ -72,5 +72,11 @@
 
   export default {
     name: 'AppMenuBar',
+    methods: {
+      showModal(){
+        console.log('show modal')
+        this.$modal.show('modal-signup')
+      }
+    }
   }
 </script>
