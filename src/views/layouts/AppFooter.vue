@@ -11,7 +11,7 @@
                 <div class="col-md-8">
                     <div class="d-flex mb-3">
                         <router-link :to="{ name: 'About' }" class="text-light fw-bold me-3 d-block">About Us</router-link>
-                        <router-link to="#" class="text-light fw-bold me-3 d-block">Cookie Policy</router-link>
+                        <!-- <router-link to="#" class="text-light fw-bold me-3 d-block">Cookie Policy</router-link> -->
                         <router-link to="#" class="text-light fw-bold me-3 d-block">Terms of Use</router-link>
                         <router-link to="#" class="text-light fw-bold me-3 d-block">Privacy Policy</router-link>
                         <router-link to="#" class="text-light fw-bold me-3 d-block">Partner With Us</router-link>

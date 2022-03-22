@@ -111,15 +111,6 @@
       <!-- ./ end row -->
     </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <hr>
-        </div>
-      </div>
-
-    </div>
-
     <section class="container py-4 page-content top10-list">
       <!-- content -->
       <div class="row" v-if="$route.params.slug == 'fashion'">
@@ -181,8 +172,8 @@
     <div class="last-block">
       <div class="container">
         <div class="last-title">
-          <div class="left-title">Explore more Top10.com Categories</div>
-          <div class="right-title">View all shortlists</div>
+          <div class="left-title">Explore more top Categories</div>
+          <!-- <div class="right-title">View all shortlists</div> -->
         </div>
         <div class="white-box">
           <div class="table-responsive">
@@ -216,12 +207,6 @@
 </template>
 
 <script type="text/javascript">
-  /*import fashion from '@/data/fashion.json'
-  import food from '@/data/food.json'
-  import relationship from '@/data/relationship.json'
-  import tech from '@/data/tech.json'
-  import entertainment from '@/data/entertainment.json'
-  import shopping from '@/data/shopping.json'*/
   export default{
     name: 'Category',
     data: () => ({
@@ -244,28 +229,6 @@
     },
     methods: {
       setCurrentCategory( slug ){
-        /*switch( slug ){
-          case 'food':
-            this.products = food;
-            break;
-          case 'fashion':
-            this.products = fashion;
-            break;
-          case 'relationship':
-            this.products = relationship;
-            break;
-          case 'tech':
-            this.products = tech;
-            break;
-          case 'entertainment':
-            this.products = entertainment;
-            break;
-          case 'shopping':
-            this.products = shopping;
-            break;
-          default:
-            break;
-        }*/
         const filtered_products = this.$store.state.products.filter( (product) => product.slug == slug )
         if( filtered_products.length > 0 ){
           this.products = filtered_products[0]

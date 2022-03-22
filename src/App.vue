@@ -31,6 +31,11 @@
     components: { AppMenuBar, AppFooter },
     created(){
       this.$store.commit('setProducts', [ fashion, food, relationship, tech, entertainment, shopping, website_builder, dna_testing])
+      // eslint-disable-next-line no-unused-vars
+      this.$router.beforeEach((to, from, next) => {
+        window.scrollTo(0, 0)
+        next()
+      })
     }
   }
 </script>
