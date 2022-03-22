@@ -55,14 +55,22 @@
                 </div>
               </form>
               <div class="d-flex align-items-center">
-                <button type="button" class="btn btn-primary me-3">
+                <button type="button" class="btn btn-primary me-3" @click="$modal.show('modal-signup')">
                   Sign up for free
                 </button>
               </div>
             </div>
           </nav>
           <!-- Navbar -->
+
         </header>
       </div>
     </section>
 </template>
+
+<script>
+
+  export default {
+    name: 'AppMenuBar',
+  }
+</script>

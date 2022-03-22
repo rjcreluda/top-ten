@@ -369,7 +369,7 @@ export default {
   }),
   created(){
     this.categories = [
-      { name: 'Tech', icon: 'fa-whmcs', link: 'tech' },
+      { name: 'Tech', icon: 'fa-cog', link: 'tech' },
       { name: 'Fashion', icon: 'fa-walking', link: 'fashion' },
       { name: 'Food', icon: 'fa-utensils', link: 'food' },
       { name: 'Entertainment', icon: 'fa-gamepad', link: 'entertainment' },
