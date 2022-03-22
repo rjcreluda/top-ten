@@ -10,12 +10,11 @@
                 </div>
                 <div class="col-md-8">
                     <div class="d-flex mb-3">
-                        <a href="#" class="text-light fw-bold me-3 d-block">About Us</a>
-                        <a href="#" class="text-light fw-bold me-3 d-block">Cookie Policy</a>
-                        <a href="#" class="text-light fw-bold me-3 d-block">Terms of Use</a>
-                        <a href="#" class="text-light fw-bold me-3 d-block">Privacy Policy</a>
-                        <a href="#" class="text-light fw-bold me-3 d-block">Sitemap</a>
-                        <a href="#" class="text-light fw-bold me-3 d-block">Partner With Us</a>
+                        <router-link :to="{ name: 'About' }" class="text-light fw-bold me-3 d-block">About Us</router-link>
+                        <router-link to="#" class="text-light fw-bold me-3 d-block">Cookie Policy</router-link>
+                        <router-link to="#" class="text-light fw-bold me-3 d-block">Terms of Use</router-link>
+                        <router-link to="#" class="text-light fw-bold me-3 d-block">Privacy Policy</router-link>
+                        <router-link to="#" class="text-light fw-bold me-3 d-block">Partner With Us</router-link>
                     </div>
                     <p class="small">Designed to help users make confident decisions online, this website contains information about a wide range of products and services. Certain details, including but not limited to prices and special offers, are provided to us directly from our partners and are dynamic and subject to change at any time without prior notice. Though based on meticulous research, the information we share does not constitute legal or professional advice or forecast, and should not be treated as such.</p>
                 </div>

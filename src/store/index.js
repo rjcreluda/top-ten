@@ -13,11 +13,18 @@ export default new Vuex.Store({
       { name: 'Entertainment', icon: 'fa-gamepad', link: 'entertainment' },
       { name: 'Relationship', icon: 'fa-heart', link: 'relationship' },
       { name: 'Shopping', icon: 'fa-shopping-cart', link:'shopping' },
-    ]
+    ],
+    products: []
 	},
 	mutations: {
 		changeMessage( state, msg ){
 			state.msg = msg
+		},
+		setProducts( state, products ){
+			state.products = products
+		},
+		addProduct( state, product ){
+			state.products.push( product )
 		}
 	},
 	actions: {

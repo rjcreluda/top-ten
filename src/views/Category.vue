@@ -122,7 +122,7 @@
 
     <section class="container py-4 page-content top10-list">
       <!-- content -->
-      <div class="row">
+      <div class="row" v-if="$route.params.slug == 'fashion'">
         <div class="col-md-8">
             <div class="row">
               <div class="col-md-3">
@@ -216,12 +216,12 @@
 </template>
 
 <script type="text/javascript">
-  import fashion from '@/data/fashion.json'
+  /*import fashion from '@/data/fashion.json'
   import food from '@/data/food.json'
   import relationship from '@/data/relationship.json'
   import tech from '@/data/tech.json'
   import entertainment from '@/data/entertainment.json'
-  import shopping from '@/data/shopping.json'
+  import shopping from '@/data/shopping.json'*/
   export default{
     name: 'Category',
     data: () => ({
@@ -229,7 +229,10 @@
       styleObject: {}
     }),
     created(){
-      const cat = this.$route.params.slug
+      let cat = this.$route.params.slug
+      if( this.$route.params.child_slug ){
+        cat = this.$route.params.child_slug
+      }
       this.setCurrentCategory( cat )
     },
     watch: {
@@ -241,7 +244,7 @@
     },
     methods: {
       setCurrentCategory( slug ){
-        switch( slug ){
+        /*switch( slug ){
           case 'food':
             this.products = food;
             break;
@@ -262,6 +265,10 @@
             break;
           default:
             break;
+        }*/
+        const filtered_products = this.$store.state.products.filter( (product) => product.slug == slug )
+        if( filtered_products.length > 0 ){
+          this.products = filtered_products[0]
         }
         this.styleObject = {
           backgroundImage: `url(${this.products.header_image})`,

@@ -63,7 +63,7 @@
                 <img src="assets/img/meal-delivery.20210105125548.webp" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <h4 class="card-title"><a class="text-dark" href="#">10 Best Meal Kit Delivery Services for No-Hassle Healthy Meals at Home</a></h4>
+                <h4 class="card-title"><router-link class="text-dark" :to="{ name: 'Category', params: { slug: 'food'} }">10 Best Meal Kit Delivery Services for No-Hassle Healthy Meals at Home</router-link></h4>
                 <p class="card-text text-muted">March 08 2022</p>
               </div>
             </div>
@@ -75,7 +75,7 @@
                 <img src="assets/img/dating.20210105130957.webp" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <h4 class="card-title"><a class="text-dark" href="#">The Top 10 Best Dating Sites and Apps 2022</a></h4>
+                <h4 class="card-title"><router-link class="text-dark" :to="{ name: 'Category', params: { slug: 'relationship'} }">The Top 10 Best Dating Sites and Apps 2022</router-link></h4>
                 <p class="card-text text-muted">March 08 2022</p>
               </div>
             </div>
@@ -87,7 +87,7 @@
                 <img src="assets/img/Charticles---DNA-Header.20190812113007.webp" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <h4 class="card-title"><a class="text-dark" href="#">The Best DNA Testing Kits 2022 - Trace Your Ancestry and Heritage</a></h4>
+                <h4 class="card-title"><router-link class="text-dark" :to="{ name: 'SubCategory', params: { slug: 'health', child_slug: 'dna-testing'} }">The Best DNA Testing Kits 2022 - Trace Your Ancestry and Heritage</router-link></h4>
                 <p class="card-text text-muted">March 08 2022</p>
               </div>
             </div>
@@ -99,8 +99,8 @@
                 <img src="assets/img/web-builder.webp" class="img-fluid">
               </div>
               <div class="col-md-6">
-                <h4 class="card-title"><a class="text-dark" href="#">Website Builders Header
-  The Best Website Builders of 2022</a></h4>
+                <h4 class="card-title"><router-link class="text-dark" :to="{ name: 'SubCategory', params: { slug: 'tech', child_slug: 'website-builder'} }">Website Builders Header
+  The Best Website Builders of 2022</router-link></h4>
                 <p class="card-text text-muted">March 08 2022</p>
               </div>
             </div>

@@ -1,4 +1,6 @@
 {
+    "slug": "entertainment",
+    "parent_slug": null,
     "category": "Entertainment",
     "description": "News websites keep you up to date with what's going on, but with so much fake news out there, you need to choose a reputable source.",
     "header_image": "https://umbrella.data.naturalint.com/production/charts/uploads/photo/header.20200601071135.jpg",
