@@ -370,10 +370,12 @@ export default {
   created(){
     this.categories = [
       { name: 'Tech', icon: 'fa-cog', link: 'tech' },
-      { name: 'Fashion', icon: 'fa-walking', link: 'fashion' },
-      { name: 'Food', icon: 'fa-utensils', link: 'food' },
+      { name: 'Business', icon: 'fa-briefcase', link: 'business' },
+      { name: 'Health', icon: 'fa-capsules', link: 'health/dna-testing' },
+      /*{ name: 'Fashion', icon: 'fa-walking', link: 'fashion' },
+      { name: 'Food', icon: 'fa-utensils', link: 'food' },*/
+      { name: 'Love & Relationship', icon: 'fa-heart', link: 'relationship' },
       { name: 'Entertainment', icon: 'fa-gamepad', link: 'entertainment' },
-      { name: 'Relationship', icon: 'fa-heart', link: 'relationship' },
       { name: 'Shopping', icon: 'fa-shopping-cart', link:'shopping' },
     ];
   }

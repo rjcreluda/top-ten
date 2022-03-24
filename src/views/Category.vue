@@ -7,7 +7,7 @@
     >
       <div class="mask">
         <div class="block-big-title">
-          <h3 class="first-title-1">Top 10 List of {{ $route.params.slug }}</h3>
+          <h3 class="first-title-1">Top 10 List of {{ header_title }}</h3>
           <h5 class="second-title-2">
             {{ products.description }}
           </h5>
@@ -213,6 +213,12 @@
       products: [],
       styleObject: {}
     }),
+    computed: {
+      header_title(){
+        let title = this.$route.params.child_slug ? this.$route.params.child_slug : this.$route.params.slug
+        return title.replace('-', ' ')
+      }
+    },
     created(){
       let cat = this.$route.params.slug
       if( this.$route.params.child_slug ){

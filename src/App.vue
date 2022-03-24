@@ -52,6 +52,7 @@
   import shopping from '@/data/shopping.json'
   import website_builder from '@/data/tech-website-builder.json'
   import dna_testing from '@/data/dna-testing.json'
+  import business from '@/data/business.json'
 
   import AppMenuBar from '@/views/layouts/AppMenuBar'
   import AppFooter from '@/views/layouts/AppFooter'
@@ -71,7 +72,7 @@
     },
     created(){
       this.modalWidth = window.innerWidth < MODAL_WIDTH ? MODAL_WIDTH / 2 : MODAL_WIDTH
-      this.$store.commit('setProducts', [ fashion, food, relationship, tech, entertainment, shopping, website_builder, dna_testing])
+      this.$store.commit('setProducts', [ fashion, food, relationship, tech, entertainment, shopping, website_builder, dna_testing, business])
       // eslint-disable-next-line no-unused-vars
       this.$router.beforeEach((to, from, next) => {
         window.scrollTo(0, 0)

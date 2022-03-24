@@ -1,0 +1,109 @@
+{
+    "name": "Business",
+    "slug": "business",
+    "parent_slug": null,
+    "description": "The Best Website Builders of 2022",
+    "header_image": "https://images.top10.com/f_auto,q_auto/v1/production/charts/uploads/photo/h_01.20191121120409.jpg",
+    "data": [
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/wix-logo.20201012090402.png",
+            "title": "WIXEverything you need to easily create a website in minutes113 reviews",
+            "url": "https://wixstats.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/network-solutions%20logo%20new.20210330121659.png",
+            "title": "Network SolutionsAn easy & efficient way to create your own website66 reviews",
+            "url": "https://network-solutions.7eer.net",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/hostgator%20logo%20new.20210330122444.png",
+            "title": "HostGatorCreate a functional and great-looking website fast37 reviews",
+            "url": "https://partners.hostgator.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/site123_logo%20new.20210331082159.jpg",
+            "title": "SITE123An affordable & easy-to-use website design solution56 reviews",
+            "url": "https://www.site123.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/Ionos_logo%20new.20210330120808.png",
+            "title": "1&1 IONOSBuild a professional-looking website your way37 reviews",
+            "url": "https://acn.ionos.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/xsite.20201030080130.png",
+            "title": "SquarespaceBuild your perfect site with customizable website templates123 reviews",
+            "url": "https://squarespace.sjv.io",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/WP.com_logo_Xsite.20200924080715.png",
+            "title": "WordPress.comA flexible sitebuilder with plans for every budget109 reviews",
+            "url": "https://wordpress.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/webcom%20big-image.20210316091148.png",
+            "title": "Web.comBuild a website designed to achieve your goals54 reviews",
+            "url": "https://web.yoxl.net",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/Weebly%20logo_%20new.20210330122050.png",
+            "title": "WeeblyAll the tools you need to create a quality website74 reviews",
+            "url": "https://shareasale.com",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        },
+        {
+            "img": "https://images.top10.com/f_auto,q_auto/v1/production/products/uploads/photo/Square%20Online_logo.20200816095110.png",
+            "title": "Square60 reviews",
+            "url": "https://squareecom.yaub.net",
+            "attributes": [
+                "Intuitive platform",
+                "Mobile optimized",
+                "500+ customizable website templates"
+            ]
+        }
+    ]
+}
